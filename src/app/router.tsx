@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
-import HomeView from '../views/Home'
-import LoginView from '../views/Login'
+import HomeView from '@views/Home'
+import LoginView from '@views/Login'
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
     {
         path: '/',
         element: <HomeView />,
@@ -12,5 +12,3 @@ const router = createBrowserRouter([
         element: <LoginView />,
     },
 ])
-
-export default router

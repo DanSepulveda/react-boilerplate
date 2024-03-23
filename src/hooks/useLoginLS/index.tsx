@@ -12,7 +12,7 @@ export const useLoginLS = () => {
         const lsToken = localStorage.getItem(LS_TOKEN_NAME)
 
         if (lsToken) {
-            await dispatch(loginLS())
+            await dispatch(loginLS(lsToken))
         }
         setLoading(false)
     }

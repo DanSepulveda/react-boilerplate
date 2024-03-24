@@ -23,7 +23,7 @@
         "paths": {
             "@app/*": ["src/app/*"],
             "@assets/*": ["src/assets/*"],
-            "@component/*": ["src/components/*"],
+            "@components/*": ["src/components/*"],
             "@hooks/*": ["src/hooks/*"],
             "@redux/*": ["src/redux/*"],
             "@utils/*": ["src/utils/*"],
